@@ -44,7 +44,7 @@ spec:
         image: sreevallik/cart:v1
         envFrom:
         - configMapRef:
-            name: cart
+            name: cartconfig
 ---
 apiVersion: v1
 kind: Service
