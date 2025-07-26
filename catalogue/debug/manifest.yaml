@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug
+  namespace: roboshop
+  labels:
+    purpose: demo
+spec:
+  containers:
+  - name: debug
+    image: sreevallik/debug:v1
