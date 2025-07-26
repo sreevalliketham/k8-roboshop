@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: frontend
+  name: nginx.conf
   namespace : roboshop
   labels:
     component: frontend
