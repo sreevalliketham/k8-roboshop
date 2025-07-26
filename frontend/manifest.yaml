@@ -60,6 +60,6 @@ spec:
     project: roboshop
     tier: web
   ports:
-    - protocol: http
+    - protocol: tcp
       port: 80 # service port
       targetPort: 80 # container port        
