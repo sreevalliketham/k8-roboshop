@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: cartconfig
-  namespace : roboshop
+  namespace: roboshop
   labels:
     component: cart
     project: roboshop
@@ -17,7 +17,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: cart
-  namespace : roboshop
+  namespace: roboshop
   # deployment labels
   labels:
     component: cart
